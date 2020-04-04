@@ -2,22 +2,58 @@
 
 * This is an attempt at some basic functions in README
 
-Generic Badge <br>
-[![Generic badge](https://img.shields.io/badge/<Basic>-<Static>-<COLOR>.svg)](https://shields.io/)
+Apache license <br>
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Made with Markdown <br>
-[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+IBM license <br>
+[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
-total downloads <br>
-[![PyPI download total](https://img.shields.io/pypi/dt/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+MIT license <br>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-Doc Status <br>
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
+Mozilla license <br>
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-Downloads <br>
-[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
 
+# Cool Project
+
+
+## Description
+
+
+## Table of Contents
+
+* [Necessary Files](#Installation)
+
+* [Rules of Usage](#Usage)
+
+* [Licensing](#Licensing)
+
+* [Rules on Contribution](#Contribution)
+
+* [How to Conduct Testing](#Testing)
+
+* [Where to Direct Questions](#Questions)
+
+
+## Installation
+
+
+## Usage
+
+
+## Licensing
+
+
+
+## Contribution
+
+
+## Testing
+
+
+## Questions
 
 
 
