@@ -5,7 +5,7 @@ const fs = require("fs");
 // TODO: import api and generateMarkdown modules from ./utils/
 const api = require("./utils/api")
 const generateMarkdown = require("./utils/generateMarkdown")
-const markdown = generateMarkdown(answers, response.data)
+
 // TODO: Add inquirer question objects to questions array. This should
 // include all the necessary questions for the user.
 // Example question:
@@ -100,12 +100,12 @@ function init() {
         .then(response => { 
             console.log(response.data)
             console.log(answers) 
-        ;
+            const markdown = generateMarkdown(answers, response.data);
         return writeToFile("output/readme.md", markdown);
     })
 })
 .catch(error => {
-    console.log("Couldn't create the")
+    console.log("Couldn't create the file")
 
     });
 }

@@ -1,52 +1,53 @@
 // TODO: Return markdown string for README file given a data object.
-function generateMarkdown(response) {
+function generateMarkdown(data) {
   return `
-  # $(answers.projectTitle)
+  # ${answers.projectTitle}
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Description
-  $(answers.description)
+  ${data.description}
   
-## Table of Contents
+// ## Table of Contents
   
-  * [Necessary Files](#Installation)
+//   * [Necessary Files](#Installation)
   
-  * [Rules of Usage](#Usage)
+//   * [Rules of Usage](#Usage)
   
   
-  * [Licensing](#Licensing)
+//   * [Licensing](#Licensing)
  
   
-  * [How to Conduct Testing](#Testing)
+//   * [How to Conduct Testing](#Testing)
   
   
-  * [Rules on Contribution](#Contribution)
+//   * [Rules on Contribution](#Contribution)
  
   
-  * [Where to Direct Questions](#Questions)
+//   * [Where to Direct Questions](#Questions)
   
   
-## Installation
-* The proper dependencies can be installed by using the command $(answers.installation)
+// ## Installation
+// * The proper dependencies can be installed by using the command $(answers.installation)
   
-## Usage
-* $(answers.usage)
+// ## Usage
+// * ${answers.usage}
   
-## Licensing 
-* The licensing for this repo is provided by $(answers.licensing)
+// ## Licensing 
+// * The licensing for this repo is provided by $(answers.licensing)
 
-## Testing
-* $(answers.testing)
+// ## Testing
+// * ${answers.testing}
 
-## Contribution
-* $(answers.contribution)
+// ## Contribution
+// * ${answers.contribution}
   
-## Questions
-* Questions can be directed to $(answer.username)
+// ## Questions
+// * Questions can be directed to ${answer.username}
 
 
 `;
+
 }
 
 module.exports = generateMarkdown;
