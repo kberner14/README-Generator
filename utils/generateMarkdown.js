@@ -1,5 +1,5 @@
 // TODO: Return markdown string for README file given a data object.
-function generateMarkdown(data) {
+function generateMarkdown(response) {
   return `
   # $(answers.projectTitle)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,40 +11,39 @@ function generateMarkdown(data) {
 ## Table of Contents
   
   * [Necessary Files](#Installation)
-  $(answers.installation)
-
+  
   * [Rules of Usage](#Usage)
-  $(answers.usage)
+  
   
   * [Licensing](#Licensing)
-  $(answers.licensing)
-  
-  * [Rules on Contribution](#Contribution)
-  $(answers.contribution)
+ 
   
   * [How to Conduct Testing](#Testing)
-  $(answers.testing)
+  
+  
+  * [Rules on Contribution](#Contribution)
+ 
   
   * [Where to Direct Questions](#Questions)
   
   
 ## Installation
-  
+* The proper dependencies can be installed by using the command $(answers.installation)
   
 ## Usage
-  
+* $(answers.usage)
   
 ## Licensing 
-  
-  
-## Contribution
-  
-  
+* The licensing for this repo is provided by $(answers.licensing)
+
 ## Testing
-  
+* $(answers.testing)
+
+## Contribution
+* $(answers.contribution)
   
 ## Questions
-
+* Questions can be directed to 
 
 `;
 }

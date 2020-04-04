@@ -3,9 +3,9 @@ const inquirer = require("inquirer");
 
 const fs = require("fs");
 // TODO: import api and generateMarkdown modules from ./utils/
-const api = require("./utils/api.js")
-const generateMarkdown = require("./utils/generateMarkdown.js")
-const markdown = generateMarkdown(response)
+const api = require("./utils/api")
+const generateMarkdown = require("./utils/generateMarkdown")
+const markdown = generateMarkdown(answers, response.data)
 // TODO: Add inquirer question objects to questions array. This should
 // include all the necessary questions for the user.
 // Example question:
