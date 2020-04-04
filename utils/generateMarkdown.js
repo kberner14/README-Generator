@@ -43,7 +43,8 @@ function generateMarkdown(response) {
 * $(answers.contribution)
   
 ## Questions
-* Questions can be directed to 
+* Questions can be directed to $(answer.username)
+
 
 `;
 }
